@@ -7,22 +7,24 @@ A reusable tool that automates feature selection using multiple methods (statist
 ---
 
 ## Table of Contents 📚
-- [Features](README.md#features)
-- [Project Structure](README.md#project-structure)
-- [Quick Start](README.md#quick-start)
-- [Usage](README.md#usage)
-- [Configuration](README.md#configuration)
-- [Contributing](README.md#contributing)
-- [License](README.md#license)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Quick Start](#quick-start)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
+<a id="features"></a>
 ## Features ✨
 - Apply multiple feature selection methods automatically
 - Combine (ensemble) method results to find stable features
 - Convert notebook experiments to a standalone script
 - Build a reusable `FeatureSelector` component for pipelines
 
+<a id="project-structure"></a>
 ## Project Structure 🔧
 - `notebook/` — Jupyter notebook(s) with exploratory analysis and experiments
 - `src/` — Python script implementation of the feature selection tool
@@ -31,6 +33,7 @@ A reusable tool that automates feature selection using multiple methods (statist
 
 > Note: structure may vary. Adjust paths as needed when running the tool.
 
+<a id="quick-start"></a>
 ## Quick Start 🚀
 1. Clone the repo:
 
@@ -53,6 +56,7 @@ pip install -r requirements.txt
 python src/feature_selector.py --data data/your_dataset.csv --target target_column
 ```
 
+<a id="usage"></a>
 ## Usage 🧭
 - Use the notebook(s) for exploration and parameter tuning.
 - Use the `src/` script or import `FeatureSelector` in your pipeline for automation.
@@ -65,13 +69,16 @@ fs = FeatureSelector(methods=['correlation','rf','lasso'])
 selected = fs.fit_transform(X, y)
 ```
 
+<a id="configuration"></a>
 ## Configuration ⚙️
 - Provide dataset path, target column and optional method list.
 - Add configuration or CLI flags as needed in `src/`.
 
+<a id="contributing"></a>
 ## Contributing 🤝
 Contributions welcome — please open an issue or a pull request. Add tests and update the README when adding features.
 
+<a id="license"></a>
 ## License 📄
 This project is provided under the **MIT License**. Add a `LICENSE` file to the repository or change the license as needed.
 
