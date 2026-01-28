@@ -7,13 +7,13 @@ A reusable tool that automates feature selection using multiple methods (statist
 ---
 
 ## Table of Contents 📚
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Quick Start](#quick-start)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
+- [Features](README.md#features)
+- [Project Structure](README.md#project-structure)
+- [Quick Start](README.md#quick-start)
+- [Usage](README.md#usage)
+- [Configuration](README.md#configuration)
+- [Contributing](README.md#contributing)
+- [License](README.md#license)
 
 ---
 
